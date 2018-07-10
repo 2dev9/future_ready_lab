@@ -1,0 +1,12 @@
+body {
+    background-color: blueviolet;
+    color: white;
+    font-family:monospace;
+    text-align: center;
+}
+
+input{
+    height: 5%;
+    width:auto;
+    text-align: center;
+}

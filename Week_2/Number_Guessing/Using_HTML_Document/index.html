@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="main.js"> </script>
+        <link rel="stylesheet" href="style.css">
+        <title>Number Guessing Project</title>
+    </head>
+    <body>
+        <h1>Number Guessing Game</h1>
+        <br>
+        <p>Create the bounds</p>
+        <form>
+            <input type="number" id="low" placeholder="Low">
+            <input type="number" id="high" placeholder="High">
+            <br>
+            <br>
+            <button type="button" onclick="getBounds()">Submit</button>
+        </form>
+        <br>
+        <p>Make your guess</p>
+        <form>
+            <input type="number" placeholder="Your guess" id="guess">
+            <button type="button" onclick="makeGuess()">Make your guess </button>
+
+        </form>
+    </body>
+</html>
